@@ -1,0 +1,16 @@
+FROM node:18-alpine
+
+# Install json-server globally and wget for healthcheck
+RUN npm install -g json-server@1.0.0-beta.3 && \
+    apk add --no-cache wget
+
+WORKDIR /app
+
+# Copy the database file
+COPY src/utils/db.json ./db.json
+
+# Expose port
+EXPOSE 3001
+
+# Start json-server
+CMD ["json-server", "--host", "0.0.0.0", "--port", "3001", "db.json"]

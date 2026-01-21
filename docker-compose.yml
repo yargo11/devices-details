@@ -1,0 +1,24 @@
+services:
+  # JSON Server API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: device-details-api
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./src/utils/db.json:/app/db.json
+    restart: unless-stopped
+
+  # Frontend Application
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: device-details-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+    restart: unless-stopped
