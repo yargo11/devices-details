@@ -1,0 +1,247 @@
+{
+    "devices": [
+        {
+            "id": "dev_01",
+            "name": "Concentrador Óptico 01",
+            "status": "online",
+            "type": "OLT",
+            "ip": "192.168.1.10",
+            "location": "Brasil",
+            "last_seen": "2024-01-20T10:00:00Z"
+        },
+        {
+            "id": "dev_02",
+            "name": "Sensor de Umidade A4",
+            "status": "alert",
+            "type": "IoT Sensor",
+            "ip": "10.0.0.55",
+            "location": "Estados Unidos",
+            "last_seen": "2024-01-19T14:30:00Z"
+        },
+        {
+            "id": "dev_03",
+            "name": "Router Principal",
+            "status": "online",
+            "type": "Router",
+            "ip": "192.168.1.1",
+            "location": "Alemanha",
+            "last_seen": "2024-01-20T09:15:00Z"
+        },
+        {
+            "id": "dev_04",
+            "name": "Switch Prédio A",
+            "status": "offline",
+            "type": "Switch",
+            "ip": "192.168.2.10",
+            "location": "França",
+            "last_seen": "2024-01-18T16:45:00Z"
+        },
+        {
+            "id": "dev_05",
+            "name": "Camera Segurança 01",
+            "status": "online",
+            "type": "IP Camera",
+            "ip": "10.0.1.100",
+            "location": "Reino Unido",
+            "last_seen": "2024-01-20T11:30:00Z"
+        },
+        {
+            "id": "dev_06",
+            "name": "Sensor Temperatura Sala 1",
+            "status": "offline",
+            "type": "IoT Sensor",
+            "ip": "10.0.2.45",
+            "location": "Japão",
+            "last_seen": "2024-01-17T08:20:00Z"
+        },
+        {
+            "id": "dev_07",
+            "name": "Access Point WiFi B2",
+            "status": "online",
+            "type": "Access Point",
+            "ip": "192.168.3.50",
+            "location": "Canadá",
+            "last_seen": "2024-01-20T12:00:00Z"
+        },
+        {
+            "id": "dev_08",
+            "name": "Firewall Corporativo",
+            "status": "alert",
+            "type": "Firewall",
+            "ip": "10.10.10.1",
+            "location": "Austrália",
+            "last_seen": "2024-01-20T07:45:00Z"
+        },
+        {
+            "id": "dev_09",
+            "name": "Sensor Movimento Hall",
+            "status": "offline",
+            "type": "IoT Sensor",
+            "ip": "10.0.3.25",
+            "location": "Espanha",
+            "last_seen": "2024-01-19T22:10:00Z"
+        },
+        {
+            "id": "dev_10",
+            "name": "Camera Externa 02",
+            "status": "online",
+            "type": "IP Camera",
+            "ip": "10.0.1.101",
+            "location": "Itália",
+            "last_seen": "2024-01-20T13:15:00Z"
+        },
+        {
+            "id": "dev_11",
+            "name": "Switch Andar 3",
+            "status": "online",
+            "type": "Switch",
+            "ip": "192.168.4.15",
+            "location": "Holanda",
+            "last_seen": "2024-01-20T10:30:00Z"
+        },
+        {
+            "id": "dev_12",
+            "name": "Sensor Fumaça Cozinha",
+            "status": "alert",
+            "type": "IoT Sensor",
+            "ip": "10.0.4.30",
+            "location": "Suécia",
+            "last_seen": "2024-01-20T06:00:00Z"
+        },
+        {
+            "id": "dev_13",
+            "name": "UPS Principal",
+            "status": "alert",
+            "type": "UPS",
+            "ip": "192.168.5.200",
+            "location": "Noruega",
+            "last_seen": "2024-01-16T14:00:00Z"
+        },
+        {
+            "id": "dev_14",
+            "name": "Gateway IoT Lab",
+            "status": "online",
+            "type": "Gateway",
+            "ip": "10.20.30.1",
+            "location": "Dinamarca",
+            "last_seen": "2024-01-20T11:45:00Z"
+        },
+        {
+            "id": "dev_15",
+            "name": "Sensor Pressão Linha 1",
+            "status": "offline",
+            "type": "IoT Sensor",
+            "ip": "10.0.5.75",
+            "location": "Finlândia",
+            "last_seen": "2024-01-18T20:30:00Z"
+        },
+        {
+            "id": "dev_16",
+            "name": "Camera Estacionamento",
+            "status": "online",
+            "type": "IP Camera",
+            "ip": "10.0.1.102",
+            "location": "Suíça",
+            "last_seen": "2024-01-20T12:20:00Z"
+        },
+        {
+            "id": "dev_17",
+            "name": "Router Backup",
+            "status": "alert",
+            "type": "Router",
+            "ip": "192.168.1.2",
+            "location": "Áustria",
+            "last_seen": "2024-01-19T18:15:00Z"
+        },
+        {
+            "id": "dev_18",
+            "name": "Sensor Luminosidade Office",
+            "status": "online",
+            "type": "IoT Sensor",
+            "ip": "10.0.6.40",
+            "location": "Bélgica",
+            "last_seen": "2024-01-20T09:00:00Z"
+        },
+        {
+            "id": "dev_19",
+            "name": "Switch Laboratorio",
+            "status": "offline",
+            "type": "Switch",
+            "ip": "192.168.6.20",
+            "location": "Portugal",
+            "last_seen": "2024-01-15T12:30:00Z"
+        },
+        {
+            "id": "dev_20",
+            "name": "Access Point Auditorio",
+            "status": "offline",
+            "type": "Access Point",
+            "ip": "192.168.7.60",
+            "location": "Argentina",
+            "last_seen": "2024-01-19T15:45:00Z"
+        },
+        {
+            "id": "dev_21",
+            "name": "Sensor Vibração Motor A",
+            "status": "online",
+            "type": "IoT Sensor",
+            "ip": "10.0.7.80",
+            "location": "Chile",
+            "last_seen": "2024-01-20T13:30:00Z"
+        },
+        {
+            "id": "dev_22",
+            "name": "Camera Recepção",
+            "status": "alert",
+            "type": "IP Camera",
+            "ip": "10.0.1.103",
+            "location": "México",
+            "last_seen": "2024-01-20T08:15:00Z"
+        },
+        {
+            "id": "dev_23",
+            "name": "Load Balancer Web",
+            "status": "online",
+            "type": "Load Balancer",
+            "ip": "10.50.50.10",
+            "location": "Colômbia",
+            "last_seen": "2024-01-20T14:00:00Z"
+        },
+        {
+            "id": "dev_24",
+            "name": "Sensor Qualidade Ar Sala 5",
+            "status": "alert",
+            "type": "IoT Sensor",
+            "ip": "10.0.8.90",
+            "location": "Peru",
+            "last_seen": "2024-01-17T10:15:00Z"
+        },
+        {
+            "id": "dev_25",
+            "name": "Switch Core Datacenter",
+            "status": "online",
+            "type": "Switch",
+            "ip": "192.168.100.1",
+            "location": "Coreia do Sul",
+            "last_seen": "2024-01-20T13:45:00Z"
+        },
+        {
+            "id": "dev_26",
+            "name": "Sensor Energia Solar",
+            "status": "offline",
+            "type": "IoT Sensor",
+            "ip": "10.0.9.15",
+            "location": "China",
+            "last_seen": "2024-01-19T12:00:00Z"
+        },
+        {
+            "id": "dev_27",
+            "name": "Camera Perímetro Norte",
+            "status": "online",
+            "type": "IP Camera",
+            "ip": "10.0.1.104",
+            "location": "Índia",
+            "last_seen": "2024-01-20T14:10:00Z"
+        }
+    ]
+}
